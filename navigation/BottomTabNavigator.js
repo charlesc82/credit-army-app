@@ -19,7 +19,7 @@ const tabBarOptions = (name, IconComponent, iconName) => ({
   ),
 });
 
-export default function BottomTab() {
+export default function BottomTabNavigator() {
   return (
     <Tab.Navigator>
       <Tab.Screen
